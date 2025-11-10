@@ -6,7 +6,9 @@
 
 1. 「給与明細集計ツール」スプレッドシートをコピーして開く
    https://drive.google.com/drive/folders/1rAUZiYw_djySm3M0wecKPg1P8bTe0eJg
+
    原本をコピーしてクライアントの作業フォルダに移動させて利用ください。
+
 2. 「設定」シートで以下を設定：
    - **Drive フォルダ ID**: 給与明細ファイルが入っている Google Drive フォルダの ID
    - **Cloud Functions URL**: 管理者から提供された URL（通常は既に設定済み）
@@ -352,5 +354,5 @@ A: Google Drive でフォルダを開き、URL の `folders/` の後ろの文字
 
 ---
 
-更新日: 2025 年 1 月 10 日
+更新日: 2025 年 11 月 10 日
 バージョン: 2.0
