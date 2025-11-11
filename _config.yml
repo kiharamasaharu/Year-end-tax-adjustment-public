@@ -6,7 +6,7 @@ author: [担当者名] # 問い合わせ先担当者名を設定
 
 # ベースURL設定（リポジトリ名に合わせる）
 # リポジトリ名が 'year-end-tax-adjustment-public' の場合
-baseurl: "/year-end-tax-adjustment-public"
+baseurl: "/Year-end-tax-adjustment-public"
 
 # Jekyllの設定
 theme: minima
