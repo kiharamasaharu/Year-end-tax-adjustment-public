@@ -1,0 +1,19 @@
+# サイトの基本情報
+title: "給与明細集計ツール 公式マニュアル"
+description: "利用者向け簡易マニュアルとv5.0アップデート情報"
+email: [メールアドレス] # 問い合わせ先メールアドレスを設定
+author: [担当者名] # 問い合わせ先担当者名を設定
+
+# ベースURL設定（リポジトリ名に合わせる）
+# リポジトリ名が 'year-end-tax-adjustment-public' の場合
+baseurl: "/year-end-tax-adjustment-public"
+
+# Jekyllの設定
+theme: minima
+markdown: kramdown
+permalink: pretty
+
+# ナビゲーション（Minimaテーマを使用する場合、ヘッダーにリンクを表示）
+header_pages:
+  - index.md
+  - v5-updates.md
