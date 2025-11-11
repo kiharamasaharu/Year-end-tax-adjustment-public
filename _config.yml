@@ -1,6 +1,6 @@
 # サイトの基本情報
 title: "給与明細集計ツール 公式マニュアル"
-description: "利用者向け簡易マニュアルとv5.0アップデート情報"
+description: "利用者向け簡易マニュアルとv5.0/v6.0アップデート情報"
 email: [メールアドレス] # 問い合わせ先メールアドレスを設定
 author: [担当者名] # 問い合わせ先担当者名を設定
 
@@ -16,4 +16,5 @@ permalink: pretty
 # ナビゲーション（Minimaテーマを使用する場合、ヘッダーにリンクを表示）
 header_pages:
   - index.md
-  - v5-updates.md
+  - V5_TABLE_LAYOUT.md
+  - V6_UPDATE.md
