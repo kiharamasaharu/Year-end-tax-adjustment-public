@@ -34,8 +34,10 @@
 }
 
 // 現在開いているページのリンクを特に目立たせる
-.site-nav .page-link.active {
+.site-nav .page-link.active,
+.site-nav .page-link[aria-current="page"] {
     color: white; /* テキストを白に */
     background-color: #007bff; /* 背景を青系の色に */
     border-radius: 5px;
 }
+
