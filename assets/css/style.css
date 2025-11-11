@@ -1,0 +1,41 @@
+---
+# Jekyllがこのファイルをコンパイルするために必要
+---
+// デフォルトのMinimaテーマのスタイルをインポート
+@import "minima";
+
+// --- ナビゲーションリンクのスタイル上書き ---
+// ヘッダーのナビゲーション要素
+.site-nav {
+    // リンクを右寄せにする場合はコメントアウトを外す
+    // float: right;
+    
+    // ナビゲーションリンク全体の間隔を調整
+    font-size: 1.1em; /* フォントサイズを少し大きく */
+}
+
+// 個々のリンク（<a>タグ）
+.site-nav .page-link {
+    // リンクの周囲にパディング（余白）を追加
+    padding: 5px 10px;
+    
+    // リンクを太字にする
+    font-weight: bold;
+    
+    // 背景色と角丸を追加して「ボタン風」にする
+    // background-color: #f0f0f0; // 目立たせたい色に変更
+    // border-radius: 5px;
+
+    // ホバー時に色を変更してインタラクティブ性を高める
+    &:hover {
+        color: #007bff; /* ホバー時のテキストカラーを青に変更 */
+        text-decoration: underline; /* 下線を表示 */
+    }
+}
+
+// 現在開いているページのリンクを特に目立たせる
+.site-nav .page-link.active {
+    color: white; /* テキストを白に */
+    background-color: #007bff; /* 背景を青系の色に */
+    border-radius: 5px;
+}
